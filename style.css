@@ -1,0 +1,196 @@
+body{
+overflow-x: hidden;
+}
+.hero h1{
+    font-size: 58px !important;
+}
+.client-img{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    align-items: center;
+    justify-content: center;
+}
+.members{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.logo-img{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: start;
+    justify-content: start;
+}
+.Creating-img{
+    position: relative;
+}
+.Creating{
+    position: absolute;
+    top: 3150px;
+    left: 150px;
+    width: 300px;
+    height: 140px;
+border-radius: 10px;
+align-items: center;
+justify-content: center;
+padding: 20px;
+text-align: center;
+    background-color:white !important;
+    color: #717171 !important;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.safeguarding-img{
+    position: relative;
+}
+.safeguarding{
+    position: absolute;
+    top: 3150px;
+    left: 580px;
+    width: 300px;
+    height: 140px;
+border-radius: 10px;
+align-items: center;
+justify-content: center;
+padding: 20px;
+text-align: center;
+    background-color:white !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.Revamping-img{
+    position: relative;
+}
+.Revamping{
+    position: absolute;
+    top: 3150px;
+    left: 1020px;
+    width: 300px;
+    height: 140px;
+border-radius: 10px;
+align-items: center;
+justify-content: center;
+padding: 20px;
+text-align: center;
+    background-color:white !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+footer{
+    background-color: #263238;
+}
+li{
+    list-style: none;
+}
+input{
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
+    outline: none;
+    
+}
+ input::placeholder {
+    color: #D9DBE1;  /* Placeholder text color */
+}
+.footer-img{
+    position: absolute;
+    left: 1270px;
+    top: 3545px;
+}
+@media screen and (max-width:600px) {
+    .client-img{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    .Creating-img{
+        position: relative;
+    }
+    .Creating{
+        position: absolute;
+        top: 6155px;
+        left: 60px;
+        width: 200px;
+        font-size: 10px;
+        height: 100px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+        background-color:white !important;
+        color: #717171 !important;
+        font-weight: 600;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .safeguarding-img{
+        position: relative;
+    }
+    .safeguarding{
+        position: absolute;
+        top: 6385px;
+        left: 60px;
+        width: 200px;
+        font-size: 10px;
+        height: 100px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+        background-color:white !important;
+        color: #717171 !important;
+        font-weight: 600;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    }
+    .Revamping-img{
+        position: relative;
+    }
+    .Revamping{
+        position: absolute;
+        top: 6655px;
+        left: 60px;
+        width: 200px;
+        font-size: 10px;
+        height: 100px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+        background-color:white !important;
+        color: #717171 !important;
+        font-weight: 600;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    }
+    footer{
+        background-color: #263238;
+        text-align: center;
+    }
+    li{
+        list-style: none;
+    }
+    input{
+        border-radius: 10px;
+        padding: 5px;
+        position: relative;
+        outline: none;
+        
+    }
+     input::placeholder {
+        color: #D9DBE1;  /* Placeholder text color */
+    }
+    .footer-img{
+        position: absolute;
+        left: 328px;
+        top:7637px;
+    }
+}
