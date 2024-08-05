@@ -115,7 +115,7 @@ input{
     .Creating{
         position: absolute;
         top: 6155px;
-        left: 60px;
+        left: 100px;
         width: 200px;
         font-size: 10px;
         height: 100px;
@@ -135,7 +135,7 @@ input{
     .safeguarding{
         position: absolute;
         top: 6385px;
-        left: 60px;
+        left: 100px;
         width: 200px;
         font-size: 10px;
         height: 100px;
@@ -156,7 +156,7 @@ input{
     .Revamping{
         position: absolute;
         top: 6655px;
-        left: 60px;
+        left: 100px;
         width: 200px;
         font-size: 10px;
         height: 100px;
@@ -190,7 +190,7 @@ input{
     }
     .footer-img{
         position: absolute;
-        left: 340px;
+        left: 320px;
         top:7857px;
     }
 }
